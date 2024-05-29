@@ -11,8 +11,10 @@
     "generate": "NEXT_PUBLIC_SUPABASE_URL=https://dmrooqbmxdhdyblqzswu.supabase.co graphql-codegen --config ./src/apollo/codegen.ts"
   },
   "dependencies": {
-    "@100mslive/hms-video-store": "^0.12.6",
-    "@100mslive/react-icons": "^0.10.4",
+    "@aws-amplify/ui-react": "^6.1.7",
+    "aws-amplify": "^6.2.0",
+    "@100mslive/hms-video-store": "^0.12.11",
+    "@100mslive/react-icons": "^0.10.11",
     "@100mslive/react-sdk": "^0.10.4",
     "@100mslive/roomkit-react": "^0.3.4",
     "@apollo/client": "^3.9.9",
@@ -105,7 +107,14 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
-    "typescript": "^5.4.3"
+    "@aws-amplify/backend": "^1.0.0",
+    "@aws-amplify/backend-cli": "^1.0.1",
+    "aws-cdk": "^2.137.0",
+    "aws-cdk-lib": "^2.137.0",
+    "constructs": "^10.3.0",
+    "esbuild": "^0.20.2",
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.5"
   },
   "packageManager": "pnpm@9.0.6"
 }
