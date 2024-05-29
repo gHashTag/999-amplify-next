@@ -5,6 +5,7 @@ backend:
       commands:
         - nvm install 18
         - nvm use 18
+        - npm install -g pnpm
     build:
       commands:
         - pnpm install
@@ -15,6 +16,7 @@ frontend:
       commands:
         - nvm install 18
         - nvm use 18
+        - npm install -g pnpm
     build:
       commands:
         - pnpm run build
