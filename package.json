@@ -41,7 +41,6 @@
     "@radix-ui/react-slot": "^1.0.2",
     "@radix-ui/react-toast": "^1.1.5",
     "@radix-ui/themes": "^3.0.1",
-    "@reach/skip-nav": "^0.18.0",
     "@react-aria/button": "^3.9.3",
     "@react-aria/dialog": "^3.5.12",
     "@react-aria/focus": "^3.16.2",
