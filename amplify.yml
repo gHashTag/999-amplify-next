@@ -7,7 +7,7 @@ backend:
         - nvm use 18
     build:
       commands:
-        - npm ci
+        - pnpm install
         - npx ampx pipeline-deploy --branch $AWS_BRANCH --app-id $AWS_APP_ID
 frontend:
   phases:
@@ -17,7 +17,7 @@ frontend:
         - nvm use 18
     build:
       commands:
-        - npm run build
+        - pnpm run build
   artifacts:
     baseDirectory: .next
     files:
@@ -25,5 +25,5 @@ frontend:
   cache:
     paths:
       - .next/cache/**/*
-      - .npm/**/*
+      - .pnpm-store/**/*
       - node_modules/**/*
