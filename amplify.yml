@@ -3,8 +3,8 @@ backend:
   phases:
     preBuild:
       commands:
-        - nvm install 18
-        - nvm use 18
+        - nvm install 19
+        - nvm use 19
         - npm install -g pnpm@9.0.6
     build:
       commands:
@@ -14,8 +14,8 @@ frontend:
   phases:
     preBuild:
       commands:
-        - nvm install 18
-        - nvm use 18
+        - nvm install 19
+        - nvm use 19
         - npm install -g pnpm@9.0.6
     build:
       commands:
