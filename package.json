@@ -116,7 +116,7 @@
     "typescript": "^5.4.5"
   },
   "engines": {
-    "node": "19"
+    "node": "20"
   },
   "packageManager": "pnpm@9.0.6"
 }
